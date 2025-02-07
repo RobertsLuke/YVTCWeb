@@ -3,12 +3,12 @@ import { ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Navigation = ({ setSection }) => (
-  <div className="fixed top-0 left-0 right-0 h-20 bg-transparent z-50">
+  <div className="fixed top-0 left-0 right-0 h-20 bg-transparent z-50 font-inter">
     <div className="h-full px-4 md:px-8 flex items-center justify-between md:justify-start relative">
       <img
         src="https://raw.githubusercontent.com/RobertsLuke/YVTCWeb/refs/heads/main/public/images/YouVsTheChuTitleText.png"
         alt="You Vs The Chu"
-        className="h-16 w-auto object-contain"
+        className="h-16 w-auto object-contain font-inter"
       />
       <div className="flex items-center gap-6 md:gap-12 ml-auto md:ml-24">
         <a
@@ -93,7 +93,7 @@ const HomeContent = () => (
     animate={{ opacity: 1, x: 0 }}
     exit={{ opacity: 0, x: 50 }}
     transition={{ duration: 0.5 }}
-    className="max-w-lg mx-auto px-6 flex flex-col justify-center min-h-screen pt-20"
+    className="max-w-lg mx-auto px-6 flex flex-col justify-center min-h-screen pt-20 font-inter"
   >
     <h1 className="text-3xl md:text-[3.5rem] leading-tight font-medium text-[#1A2B49] mb-6">
       You vs The Chu
@@ -109,7 +109,7 @@ const HomeContent = () => (
         className="bg-black text-white py-3 px-8 rounded-lg hover:bg-gray-800 flex items-center justify-center gap-2"
       >
         <img
-          src="https://github.com/RobertsLuke/YVTCWeb/blob/main/publichttps://raw.githubusercontent.com/RobertsLuke/YVTCWeb/refs/heads/main/public/images/apple-logo.png"
+          src="https://raw.githubusercontent.com/RobertsLuke/YVTCWeb/refs/heads/main/public/images/apple-logo.png"
           alt="Apple logo"
           className="w-6 h-7 invert"
         />
@@ -142,7 +142,7 @@ const FaqContent = () => (
     animate={{ opacity: 1, x: 0 }}
     exit={{ opacity: 0, x: 50 }}
     transition={{ duration: 0.5 }}
-    className="max-w-lg mx-auto px-6 flex flex-col min-h-screen pt-20"
+    className="max-w-lg mx-auto px-6 flex flex-col min-h-screen pt-20  font-inter"
   >
     <h1 className="text-3xl md:text-4xl font-medium text-[#1A2B49] mb-6">
       FAQ
@@ -191,7 +191,7 @@ const TermsContent = () => {
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: 50 }}
       transition={{ duration: 0.5 }}
-      className="max-w-lg mx-auto px-6 flex flex-col min-h-screen pt-20"
+      className="max-w-lg mx-auto px-6 flex flex-col min-h-screen pt-20  font-inter"
     >
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-3xl md:text-4xl font-medium text-[#1A2B49] text-center md:text-left">
@@ -500,7 +500,7 @@ const App = () => {
   const [section, setSection] = useState("home");
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen  font-inter">
       <div
         className="fixed inset-0 bg-gradient-to-b from-[#6EC2EE] to-white"
         style={{ zIndex: -1 }}
