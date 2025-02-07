@@ -6,7 +6,7 @@ const Navigation = ({ setSection }) => (
   <div className="fixed top-0 left-0 right-0 h-20 bg-transparent z-50">
     <div className="h-full px-4 md:px-8 flex items-center justify-between md:justify-start relative">
       <img
-        src="/images/YouVsTheChuTitleText.png"
+        src="https://raw.githubusercontent.com/RobertsLuke/YVTCWeb/refs/heads/main/public/images/YouVsTheChuTitleText.png"
         alt="You Vs The Chu"
         className="h-16 w-auto object-contain"
       />
@@ -40,10 +40,10 @@ const Navigation = ({ setSection }) => (
 const ImageCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    "/images/placeholder1.png",
-    "/images/placeholder2.png",
-    "/images/placeholder3.png",
-    "/images/placeholder4.png",
+    "https://raw.githubusercontent.com/RobertsLuke/YVTCWeb/refs/heads/main/public/images/placeholder1.png",
+    "https://raw.githubusercontent.com/RobertsLuke/YVTCWeb/refs/heads/main/public/images/placeholder2.png",
+    "https://raw.githubusercontent.com/RobertsLuke/YVTCWeb/refs/heads/main/public/images/placeholder3.png",
+    "https://raw.githubusercontent.com/RobertsLuke/YVTCWeb/refs/heads/main/public/images/placeholder4.png",
   ];
 
   const nextImage = () => {
@@ -109,7 +109,7 @@ const HomeContent = () => (
         className="bg-black text-white py-3 px-8 rounded-lg hover:bg-gray-800 flex items-center justify-center gap-2"
       >
         <img
-          src="https://github.com/RobertsLuke/YVTCWeb/blob/main/public/images/apple-logo.png"
+          src="https://github.com/RobertsLuke/YVTCWeb/blob/main/publichttps://raw.githubusercontent.com/RobertsLuke/YVTCWeb/refs/heads/main/public/images/apple-logo.png"
           alt="Apple logo"
           className="w-6 h-7 invert"
         />
@@ -123,7 +123,7 @@ const HomeContent = () => (
         className="bg-black text-white py-3 px-8 rounded-lg hover:bg-gray-800 flex items-center justify-center gap-2"
       >
         <img
-          src="/images/google-play.png"
+          src="https://raw.githubusercontent.com/RobertsLuke/YVTCWeb/refs/heads/main/public/images/google-play.png"
           alt="Google Play logo"
           className="w-8 h-8 invert"
         />
