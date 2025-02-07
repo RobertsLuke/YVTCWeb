@@ -109,7 +109,7 @@ const HomeContent = () => (
         className="bg-black text-white py-3 px-8 rounded-lg hover:bg-gray-800 flex items-center justify-center gap-2"
       >
         <img
-          src="/images/apple-logo.png"
+          src="https://github.com/RobertsLuke/YVTCWeb/blob/main/public/images/apple-logo.png"
           alt="Apple logo"
           className="w-6 h-7 invert"
         />
